@@ -8,3 +8,5 @@ Hari Pertama : Pembuatan Lantai 1
 Hari Kedua : Pembuatan Lantai 2
 
 Hari Ketiga : Pembuatan atap serta lantai 3
+
+Hari Keempat : Proses Finishing gedung
