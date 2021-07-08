@@ -86,8 +86,8 @@ void tampil(void) {
 	glBegin(GL_POLYGON);
 	glColor3f(1, 1, 0);
 	glVertex3f(-200, 0, 130);
-	glVertex3f(600, 0, 130);
-	glVertex3f(600, 0, -200);
+	glVertex3f(440, 0, 130);
+	glVertex3f(440, 0, -200);
 	glVertex3f(-200, 0, -200);
 	glEnd();
 
@@ -1581,6 +1581,62 @@ void tampil(void) {
 	glVertex3f(-113, 15, 15);
 	glVertex3f(-113, 19, 15);
 	glEnd();
+	//tutup
+	glBegin(GL_POLYGON);
+	glColor4f(1.0f, 1.0f, 0.9f, 0.0f);
+	glVertex3f(-130, 0, -50);
+	glVertex3f(-130, 30, -50);
+	glVertex3f(-40, 30, -50);
+	glVertex3f(-40, 0, -50);
+	glEnd();
+
+	glBegin(GL_POLYGON);
+	glColor4f(1.0f, 1.0f, 0.9f, 0.0f);
+	glVertex3f(0, 0, -50);
+	glVertex3f(0, 30, -50);
+	glVertex3f(130, 30, -50);
+	glVertex3f(130, 0, -50);
+	glEnd();
+
+	glBegin(GL_POLYGON);
+	glColor4f(1.0f, 1.0f, 0.9f, 0.0f);
+	glVertex3f(170, 0, -50);
+	glVertex3f(170, 30, -50);
+	glVertex3f(280, 30, -50);
+	glVertex3f(280, 0, -50);
+	glEnd();
+
+	glBegin(GL_POLYGON);
+	glColor4f(1.0f, 1.0f, 0.9f, 0.0f);
+	glVertex3f(310, 0, -50);
+	glVertex3f(310, 30, -50);
+	glVertex3f(405, 30, -50);
+	glVertex3f(405, 0, -50);
+	glEnd();
+
+	glBegin(GL_POLYGON);
+	glColor4f(1.0f, 1.0f, 0.9f, 0.0f);
+	glVertex3f(-129, 30, -50);
+	glVertex3f(-129, 50, -50);
+	glVertex3f(130, 50, -50);
+	glVertex3f(130, 30, -50);
+	glEnd();
+
+	glBegin(GL_POLYGON);
+	glColor4f(1.0f, 1.0f, 0.9f, 0.0f);
+	glVertex3f(161, 30, -50);
+	glVertex3f(161, 50, -50);
+	glVertex3f(280, 50, -50);
+	glVertex3f(280, 30, -50);
+	glEnd();
+
+	glBegin(GL_POLYGON);
+	glColor4f(1.0f, 1.0f, 0.9f, 0.0f);
+	glVertex3f(310, 30, -50);
+	glVertex3f(310, 50, -50);
+	glVertex3f(407, 50, -50);
+	glVertex3f(407, 30, -50);
+	glEnd();
 	//bangun l1 end
 
 
@@ -2471,7 +2527,7 @@ void tampil(void) {
 	glVertex3f(425, 30, 85);
 	glVertex3f(425, 40, 85);
 	glVertex3f(330, 40, 85);
-	glEnd();	
+	glEnd();
 	glBegin(GL_LINE_LOOP);
 	glColor4f(0, 0, 0, 0);
 	glVertex3f(330, 30, 85);
@@ -2488,7 +2544,7 @@ void tampil(void) {
 	glVertex3f(330, 40, 90);
 	glEnd();
 	glBegin(GL_LINE_LOOP);
-	glColor4f(0,0,0,0);
+	glColor4f(0, 0, 0, 0);
 	glVertex3f(330, 30, 90);
 	glVertex3f(330, 30, 85);
 	glVertex3f(330, 40, 85);
@@ -6612,7 +6668,7 @@ void tampil(void) {
 
 
 
-	
+
 	//jembatan kecil kiri
 	glBegin(GL_QUADS);
 	glColor4f(0.8f, 0.8f, 0.8f, 0.8f);
@@ -6737,14 +6793,14 @@ void tampil(void) {
 	glVertex3f(215, 0, 130);
 	glEnd();
 	glBegin(GL_QUADS);
-	glColor4f(0,0,0,0);
+	glColor4f(0, 0, 0, 0);
 	glVertex3f(160, 0, 130);
 	glVertex3f(160, 0, 150);
 	glVertex3f(160, 5, 150);
 	glVertex3f(160, 5, 130);
 	glEnd();
 	glBegin(GL_QUADS);
-	glColor4f(0,0,0,0);
+	glColor4f(0, 0, 0, 0);
 	glVertex3f(165, 0, 130);
 	glVertex3f(165, 0, 150);
 	glVertex3f(165, 5, 150);
@@ -6873,49 +6929,49 @@ void tampil(void) {
 	glVertex3f(260, 5, 130);
 	glEnd();
 	glBegin(GL_QUADS);
-	glColor4f(0,0,0,0);
+	glColor4f(0, 0, 0, 0);
 	glVertex3f(260, 0, 150);
 	glVertex3f(265, 0, 150);
 	glVertex3f(265, 5, 150);
 	glVertex3f(260, 5, 150);
 	glEnd();
 	glBegin(GL_QUADS);
-	glColor4f(0,0,0,0);
+	glColor4f(0, 0, 0, 0);
 	glVertex3f(260, 0, 130);
 	glVertex3f(265, 0, 130);
 	glVertex3f(265, 5, 130);
 	glVertex3f(260, 5, 130);
 	glEnd();
 	glBegin(GL_QUADS);
-	glColor4f(0,0,0,0);
+	glColor4f(0, 0, 0, 0);
 	glVertex3f(260, 0, 130);
 	glVertex3f(260, 0, 150);
 	glVertex3f(260, 5, 150);
 	glVertex3f(260, 5, 130);
 	glEnd();
 	glBegin(GL_QUADS);
-	glColor4f(0,0,0,0);
+	glColor4f(0, 0, 0, 0);
 	glVertex3f(265, 0, 130);
 	glVertex3f(265, 0, 150);
 	glVertex3f(265, 5, 150);
 	glVertex3f(265, 5, 130);
 	glEnd();
 	glBegin(GL_QUADS);
-	glColor4f(0,0,0,0);
+	glColor4f(0, 0, 0, 0);
 	glVertex3f(260, 5, 150);
 	glVertex3f(265, 5, 150);
 	glVertex3f(265, 5, 130);
 	glVertex3f(260, 5, 130);
 	glEnd();
 	glBegin(GL_QUADS);
-	glColor4f(0,0,0,0);
+	glColor4f(0, 0, 0, 0);
 	glVertex3f(260, 0, 150);
 	glVertex3f(265, 0, 150);
 	glVertex3f(265, 5, 150);
 	glVertex3f(260, 5, 150);
 	glEnd();
 	glBegin(GL_QUADS);
-	glColor4f(0,0,0,0);
+	glColor4f(0, 0, 0, 0);
 	glVertex3f(260, 0, 130);
 	glVertex3f(265, 0, 130);
 	glVertex3f(265, 5, 130);
@@ -6923,35 +6979,35 @@ void tampil(void) {
 	glEnd();
 	//
 	glBegin(GL_QUADS);
-	glColor4f(0,0,0,0);
+	glColor4f(0, 0, 0, 0);
 	glVertex3f(320, 0, 130);
 	glVertex3f(320, 0, 150);
 	glVertex3f(320, 5, 150);
 	glVertex3f(320, 5, 130);
 	glEnd();
 	glBegin(GL_QUADS);
-	glColor4f(0,0,0,0);
+	glColor4f(0, 0, 0, 0);
 	glVertex3f(325, 0, 130);
 	glVertex3f(325, 0, 150);
 	glVertex3f(325, 5, 150);
 	glVertex3f(325, 5, 130);
 	glEnd();
 	glBegin(GL_QUADS);
-	glColor4f(0,0,0,0);
+	glColor4f(0, 0, 0, 0);
 	glVertex3f(320, 5, 150);
 	glVertex3f(325, 5, 150);
 	glVertex3f(325, 5, 130);
 	glVertex3f(320, 5, 130);
 	glEnd();
 	glBegin(GL_QUADS);
-	glColor4f(0,0,0,0);
+	glColor4f(0, 0, 0, 0);
 	glVertex3f(320, 0, 150);
 	glVertex3f(325, 0, 150);
 	glVertex3f(325, 5, 150);
 	glVertex3f(320, 5, 150);
 	glEnd();
 	glBegin(GL_QUADS);
-	glColor4f(0,0,0,0);
+	glColor4f(0, 0, 0, 0);
 	glVertex3f(320, 0, 130);
 	glVertex3f(325, 0, 130);
 	glVertex3f(325, 5, 130);
@@ -7046,7 +7102,7 @@ void tampil(void) {
 	//tv kelar
 	//tutup kiri
 	glBegin(GL_QUADS);
-	glColor3f(0,0,0);
+	glColor3f(0, 0, 0);
 	glVertex3f(-200, -30, -200);
 	glVertex3f(-200, -30, 130);
 	glVertex3f(-200, 0, 130);
@@ -7081,7 +7137,7 @@ void tampil(void) {
 	glVertex3f(-110, -30, 50);
 	glEnd();
 	glBegin(GL_QUADS);
-	glColor3f(0,0,0);
+	glColor3f(0, 0, 0);
 	glVertex3f(-110, -30, 110);
 	glVertex3f(400, -30, 110);
 	glVertex3f(400, 0, 110);
@@ -7148,17 +7204,17 @@ void tampil(void) {
 	glBegin(GL_QUADS);
 	glColor4f(0.8f, 0.8f, 0.8f, 0.8f);
 	glVertex3f(-135, 0, 300);
-	glVertex3f(600, 0, 300);
-	glVertex3f(600, 0, 150);
+	glVertex3f(440, 0, 300);
+	glVertex3f(440, 0, 150);
 	glVertex3f(-80, 0, 150);
 	glEnd();
 	//taman
-	 glBegin(GL_QUADS);
+	glBegin(GL_QUADS);
 	glColor3f(0, 1, 0);
-	glVertex3f(-60, 0.5, 280);
+	glVertex3f(-100, 0.5, 280);
 	glVertex3f(80, 0.5, 280);
-	glVertex3f(0, 0.5, 190);
-	glVertex3f(-60, 0.5, 200);
+	glVertex3f(0, 0.5, 180);
+	glVertex3f(-60, 0.5, 180);
 	glEnd();
 	glBegin(GL_TRIANGLES);
 	glColor3f(0, 1, 0);
@@ -7166,8 +7222,21 @@ void tampil(void) {
 	glVertex3f(120, 0.5, 290);
 	glVertex3f(160, 0.5, 180);
 	glEnd();
-
+	glBegin(GL_QUADS);
+	glColor3f(0, 1, 0);
+	glVertex3f(210, 0.5, 180);
+	glVertex3f(160, 0.5, 280);
+	glVertex3f(340, 0.5, 280);
+	glVertex3f(260, 0.5, 180);
+	glEnd();
+	glBegin(GL_TRIANGLES);
+	glColor3f(0, 1, 0);
+	glVertex3f(320, 0.5, 180);
+	glVertex3f(380, 0.5, 290);
+	glVertex3f(420, 0.5, 180);
+	glEnd();
 	//taman kelar
+
 
 	glPopMatrix();
 	glutSwapBuffers();
